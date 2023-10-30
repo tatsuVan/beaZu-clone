@@ -6808,31 +6808,11 @@ textarea.form-control-lg {
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
-}
-
-.rounded-0 {
-  border-radius: 0 !important;
-}
-
-.rounded-1 {
-  border-radius: 0.2rem !important;
-}
-
-.rounded-2 {
-  border-radius: 0.25rem !important;
-}
-
-.rounded-3 {
-  border-radius: 0.3rem !important;
+  border-radius: 1rem !important;
 }
 
 .rounded-circle {
   border-radius: 50% !important;
-}
-
-.rounded-pill {
-  border-radius: 50rem !important;
 }
 
 .rounded-top {
@@ -9455,4 +9435,10 @@ textarea.form-control-lg {
   background-color: #E6E6E6;
   color: black;
   border: none;
+}
+
+/**************** FRONT PAGE ************************/
+/**************** SLIDER ************************/
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  width: 9%;
 }/*# sourceMappingURL=main.css.map */

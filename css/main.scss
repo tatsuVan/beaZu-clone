@@ -18,6 +18,17 @@ $custome-color: (
 // Merge maps
 $theme-colors: map-merge($theme-colors, $custome-color);
 
+$utilities: (
+  "rounded": (
+    property: border-radius,
+    class: rounded,
+    values: (
+      null: 1rem,
+      circle: 50%,
+    )
+  )
+);
+
 
 @import "./bootstrap/scss/bootstrap";
 
@@ -123,5 +134,13 @@ $theme-colors: map-merge($theme-colors, $custome-color);
     background-color: $gray;
     color:black;
     border:none;
+  }
+}
+
+/**************** FRONT PAGE ************************/
+/**************** SLIDER ************************/
+.carousel{
+  .carousel-control-prev, .carousel-control-next{
+    width: 9%;
   }
 }
