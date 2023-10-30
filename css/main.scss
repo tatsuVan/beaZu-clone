@@ -1,5 +1,5 @@
 // Include any default variable overrides here (though functions won't be available)
-$primary: white;
+$primary: black;
 $gray: #E6E6E6;
 $red: #d4401d;
 
@@ -138,9 +138,52 @@ $utilities: (
 }
 
 /**************** FRONT PAGE ************************/
+
+
+
+
+
+
 /**************** SLIDER ************************/
 .carousel{
   .carousel-control-prev, .carousel-control-next{
     width: 9%;
   }
+}
+
+/**************** CATEGORIES ************************/
+// b{
+//   height: 3px;
+//   display: block;
+//   font-weight: bolder;
+//   opacity: .1;
+//   background-color: currentColor;
+//   flex: 1;
+  
+// }
+.newArrivals{
+  a{
+    text-decoration: none;
+  }
+}
+
+.categories{
+  .categories__col{
+    height: auto;
+    img{
+      height: 197px;
+      width: 280px;
+      object-fit: cover;
+    }
+  }
+  h2{
+    font-size: 20px;
+    opacity: .8;
+  }
+
+  // @include media-breakpoint-up(md){
+  //   .categories__col{
+  //    height: 336px;
+  //   }
+  // }
 }

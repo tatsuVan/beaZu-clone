@@ -20,7 +20,7 @@ get_header();
 
 
 
-	<section class="container pd-5 pt-5">
+	<section class="container pb-5 pt-5">
 			<div id="carouselExampleDark" class="carousel carousel-dark slide overflow-hidden rounded">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -28,10 +28,10 @@ get_header();
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-bs-interval="10000">
-					<a href=""><img src="<?php echo get_template_directory_uri();?>/images/slider/pexels-corentin-henry-9992332.jpg" class="d-block w-100" alt="..."></a>
+					<a href=""><img src="<?php echo get_template_directory_uri();?>/images/slider/Hina-Mincho-scaled.webp" class="d-block w-100" alt="..."></a>
 				</div>
 				<div class="carousel-item" data-bs-interval="2000">
-					<a href=""><img src="<?php echo get_template_directory_uri();?>/images/slider/pexels-cottonbro-studio-4676396.jpg" class="d-block w-100" alt="..."></a>
+					<a href=""><img src="<?php echo get_template_directory_uri();?>/images/slider/bannerNymoThreads-scaled.webp" class="d-block w-100" alt="..."></a>
 				</div>
 
 			</div>
@@ -45,6 +45,88 @@ get_header();
 			</button>
 		</div>
 	</section>
+
+
+
+	<section class="newArrivals">
+		<div class="container">
+			<h1 class="text-center pt-5">NEW ARRIVALS & BACK IN STOCK</h1>
+			<div class="pt-5 pb-5">
+				<?php echo do_shortcode( '[products colums=4 limit=4]' ); ?>
+			</div>
+		</div>
+	</section>
+
+	<section class="bestSellers">
+		<div class="container">
+			<h1 class="text-center pt-5">BEST SELLERS</h1>
+			<div class="pt-5 pb-5">
+				<?php echo do_shortcode( '[best_selling_products colums=4 limit=4]' ); ?>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="categories">
+		<div class="container">
+			<h1 class="text-center">FEATURED CATEGORIES</h1>
+
+			<div class="row pt-5">
+				<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
+					<div>	
+						<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+							<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/47F6646.jpg" alt="" load="lazy">
+						</a>
+						<h2 class="text-center">Seed Beads</h2>
+					</div>
+				</div>
+				<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
+					<div>	
+						<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+							<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/10-40603.jpg" alt="" load="lazy">
+						</a>
+						<h2 class="text-center">Pearls</h2>
+					</div>
+				</div>
+				<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
+					<div>	
+						<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+							<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/firework_small.jpg" alt="" load="lazy">
+						</a>
+						<h2 class="text-center">Czech Fire Polish</h2>
+					</div>
+				</div>
+				<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
+					<div>	
+						<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+							<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/last_chance_banner.jpg" alt="" load="lazy">
+						</a>
+						<h2 class="text-center">Last chance items</h2>
+					</div>
+				</div>
+
+
+
+
+
+			</div>
+		</div>
+
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	</main><!-- #main -->
 
