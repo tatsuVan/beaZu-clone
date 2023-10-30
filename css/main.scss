@@ -104,3 +104,24 @@ $theme-colors: map-merge($theme-colors, $custome-color);
     border-radius: 20px!important;
   }
 }
+
+
+/* Main Menu */
+.main-navigation {
+  font-weight: 600;
+
+  a{
+    color: black;
+    padding: 0.3rem 1.0rem;
+  }
+
+  a:hover{
+    background-color: rgb(243, 243, 243);
+  }
+
+  .menu-toggle{
+    background-color: $gray;
+    color:black;
+    border:none;
+  }
+}
