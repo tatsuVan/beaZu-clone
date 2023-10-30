@@ -25,6 +25,62 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'pawsgang' ); ?></a>
 
+	<div class="announcement-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<ul class="announcement-bar__list">
+						<li class='announcement-bar__list__text'>
+							<i class="bi bi-pin rounded-circle"></i>
+							<a href="STORE">STORE</a>
+						</li>
+						<li class='announcement-bar__list__text'>
+							<i class="bi bi-envelope rounded-circle"></i>
+							<a href="CONTACT">CONTACT</a>
+						</li>
+						<li class='announcement-bar__list__text'>
+							<i class="bi bi-phone rounded-circle"></i>
+							<a href="PHONE">(604)876-6637</a>
+						</li>
+						<li class='announcement-bar__list__text'>
+							<i class="bi bi-envelope rounded-circle"></i>
+							<a href="NEWSLETTER">Newsletter</a>
+						</li>
+						<ul class='sns'>
+							<li class='announcement-bar__list__sns'>
+								<i class="bi bi-facebook rounded-circle"></i>
+							</li>
+							<li class='announcement-bar__list__sns'>
+								<i class="bi bi-instagram rounded-circle"></i>
+							</li>
+							<li class='announcement-bar__list__sns'>
+								<i class="bi bi-pinterest rounded-circle"></i>
+							</li>
+						</ul>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="announcement-bar__list right">
+						<li class='announcement-bar__list__text'>
+							<a href="wholesale-application">Wholesale Application</a>
+						</li>
+						<li class='announcement-bar__list__text'>						
+							<a href="help-center">Help Center</a>
+						<li class='announcement-bar__list__text'>
+							<a href="currency">$CAD $US</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
