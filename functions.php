@@ -219,4 +219,7 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	return $fragments;
 }
 
-
+/**
+ * WooCommerce
+ */
+add_theme_support('woocommerce');

@@ -209,6 +209,11 @@ $utilities: (
 }
 
 
+
+/**************** SIDEBAR ************************/
+
+
+
 .wp-block-woocommerce-product-categories{
   margin-top: 48px;
   text-align: left;
@@ -248,4 +253,13 @@ $utilities: (
       }
     }
   }
+}
+
+
+
+/**************** PAGE ************************/
+
+
+.entry-content{
+  margin-top: 48px;
 }

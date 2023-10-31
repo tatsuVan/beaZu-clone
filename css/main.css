@@ -9479,6 +9479,7 @@ textarea.form-control-lg {
   opacity: 0.6;
 }
 
+/**************** SIDEBAR ************************/
 .wp-block-woocommerce-product-categories {
   margin-top: 48px;
   text-align: left;
@@ -9514,4 +9515,9 @@ textarea.form-control-lg {
 }
 .wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 .wc-block-product-categories-list-item .wc-block-product-categories-list--depth-1 span {
   font-size: 20px;
+}
+
+/**************** PAGE ************************/
+.entry-content {
+  margin-top: 48px;
 }/*# sourceMappingURL=main.css.map */
