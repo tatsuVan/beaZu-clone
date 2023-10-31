@@ -621,7 +621,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1250px;
   }
 }
 .row {
@@ -9376,10 +9376,14 @@ textarea.form-control-lg {
   color: white;
   padding: 5px 0px;
 }
+.announcement-bar a {
+  color: white;
+}
 .announcement-bar__list {
   display: inline-flex;
   list-style-type: none;
   margin: 0 -10px;
+  padding-left: 0;
   opacity: 0.8;
   text-decoration: none;
 }
@@ -9460,4 +9464,54 @@ textarea.form-control-lg {
 .categories h2, .categories .h2 {
   font-size: 20px;
   opacity: 0.8;
+}
+
+/**************** FOOTER ************************/
+.site-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  padding: 0 8px;
+}
+.site-footer h1, .site-footer .h1 {
+  font-size: 19px;
+  color: white;
+  opacity: 0.6;
+}
+
+.wp-block-woocommerce-product-categories {
+  margin-top: 48px;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px 0px 10px 0px;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 {
+  padding-right: 32px;
+  opacity: 0.8;
+  margin-left: 0;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 ul {
+  border: 10px;
+  border-color: black;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 span {
+  font-size: 25px;
+  color: black;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 li {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 a {
+  text-decoration: none;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 .wc-block-product-categories-list-item li {
+  border-bottom: 1px solid;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 .wc-block-product-categories-list-item .wc-block-product-categories-list--depth-1 {
+  padding: 0;
+  margin: 0;
+}
+.wp-block-woocommerce-product-categories .wc-block-product-categories-list--depth-0 .wc-block-product-categories-list-item .wc-block-product-categories-list--depth-1 span {
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

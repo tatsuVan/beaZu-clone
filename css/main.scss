@@ -30,6 +30,7 @@ $utilities: (
 );
 
 
+
 @import "./bootstrap/scss/bootstrap";
 
 
@@ -45,12 +46,16 @@ $utilities: (
   background-color: $red;
   color: white;
   padding: 5px 0px;
+  a{
+    color:white
+  }
   
 
   &__list{
     display: inline-flex;
     list-style-type: none;
     margin: 0 -10px;
+    padding-left: 0;
     opacity: 0.8;
     text-decoration: none;
     li{
@@ -186,4 +191,61 @@ $utilities: (
   //    height: 336px;
   //   }
   // }
+}
+
+/**************** FOOTER ************************/
+.site-footer{
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0 8px;
+  }
+  h1{
+    font-size: 19px;
+    color: white;
+    opacity: .6;
+  }
+}
+
+
+.wp-block-woocommerce-product-categories{
+  margin-top: 48px;
+  text-align: left;
+  border: 1px solid rgb(0, 0, 0,.4) ;
+  padding: 10px 0px 10px 0px;
+  .wc-block-product-categories-list--depth-0{
+    
+    padding-right: 32px;
+    opacity: 0.8;
+    margin-left:0;
+    ul{
+      border: 10px;
+      border-color: black;
+    }
+    span{
+      font-size: 25px;
+      color: black;
+    }
+    li{
+      list-style-type: none;
+      margin-top: 20px;
+    } 
+    a{
+      text-decoration: none;
+      
+    }
+    .wc-block-product-categories-list-item{
+      li{
+        border-bottom: 1px solid;
+      }
+      .wc-block-product-categories-list--depth-1{
+        padding: 0;
+        margin: 0;
+        span{
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }

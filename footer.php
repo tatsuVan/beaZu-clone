@@ -12,19 +12,34 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'pawsgang' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'pawsgang' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'pawsgang' ), 'pawsgang', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		
+		<div class="bg-red pt-3 pb-3 mb-0">
+			<div class="container">
+				<div class="row text-center justify-content-center">
+					<div class="">
+						<a href="">CONTACT US</a>
+						<a href="">SHIPPING & RETURNS</a> 	
+						<a href="">DISCOUNT POLICY</a> 
+						<a href="">TERMS OF USE</a> 
+					</div>
+					
+				</div>
+				<h1 class="text-center pt-2 mb-0">Copyright 2023 © Beazu Wholesale</h1>
+			</div>
+		</div>
+
+		<div>
+			
+		</div>
+
+
+
+
+
+
+
+
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
