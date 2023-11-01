@@ -22,15 +22,3 @@ Used: WordPress, Woocommerce, PHP, Bootstrap, Git
    <?php get_footer(); ?>
    ```
 9. Edit wc-template-functions.php
-
-
-funtion.php
-add_theme_support('woocommerce');
-
-```ruby:qiita.rb
-puts 'The best way to log and share programmers knowledge.'
-```
-
-```php:function.php
-add_theme_support('woocommerce');
-```
