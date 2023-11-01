@@ -20,3 +20,6 @@ Used: WordPress, Woocommerce, PHP, Bootstrap, Git
     </main>
    <?php get_footer(); ?>
    ```
+## How to edit woocommerce templates
+- Edit CSS file
+- Edit themes directory both main and sub(not priffered)
