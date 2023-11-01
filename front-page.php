@@ -20,11 +20,11 @@ get_header();
 	
 	<div class="container">
 		<div class="row">
-			<div class="col-3">
+			<div class="col-md-3 d-none d-sm-none d-md-block">
 				<?php get_sidebar(); ?>
 			</div>
 
-			<div class="col-9">
+			<div class="col-md-9 col-sm-12">
 				<section class="container pb-5 pt-5">
 						<div id="carouselExampleDark" class="carousel carousel-dark slide overflow-hidden rounded">
 						<div class="carousel-indicators">
