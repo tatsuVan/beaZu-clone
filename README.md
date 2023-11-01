@@ -3,8 +3,7 @@ I built this E-commerce website using WordPress and WooCommerce, and I created t
 Used: WordPress, Woocommerce, PHP, Bootstrap, Git
 
 
-## How to edit woocommerce templates
-
+## How to apply woocommerce templates
 1. Copy a templates folder from public/wp-content/plugins/woocommerce/templates
 2. Paste the folder in /public/wp-content/themes/pawsgang/
 3. Change the name of folder as 'woocommerce'
@@ -21,4 +20,3 @@ Used: WordPress, Woocommerce, PHP, Bootstrap, Git
     </main>
    <?php get_footer(); ?>
    ```
-9. Edit wc-template-functions.php
