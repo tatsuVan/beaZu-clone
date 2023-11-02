@@ -79,35 +79,35 @@ get_header();
 						<div class="row pt-5 categories__row d-flex justify-content-center">
 							<div class="categories__row__col col-md-3 col-sm-12 ">
 								<div class="image-trim">	
-									<a href="#" class="">
+									<a href="http://beazu-clone-from-scratch.local/clothing-2/" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/47F6646.jpg" alt="" load="lazy">
 									</a>
 								</div>
-								<h2 class="text-center">Accessories</h2>
+								<h2 class="text-center">Clothing</h2>
 							</div>
 							<div class="categories__row__col col-md-3 col-sm-12">
 								<div class="image-trim">	
-									<a href="#" class="">
+									<a href="http://beazu-clone-from-scratch.local/decor/" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/10-40603.jpg" alt="" load="lazy">
 									</a>
 								</div>
-								<h2 class="text-center">Hoodies</h2>
+								<h2 class="text-center">Decor</h2>
 							</div>
 							<div class="categories__row__col col-md-3 col-sm-12">
 								<div class="image-trim">	
-									<a href="#" class="">
+									<a href="http://beazu-clone-from-scratch.local/music/" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/firework_small.jpg" alt="" load="lazy">
 									</a>
 								</div>
-								<h2 class="text-center">Tshirts</h2>
+								<h2 class="text-center">Music</h2>
 							</div>
 							<div class="categories__row__col col-md-3 col-sm-12">
 								<div class="image-trim">	
-									<a href="#" class="">
+									<a href="http://beazu-clone-from-scratch.local/on-sale/" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/last_chance_banner.jpg" alt="" load="lazy">
 									</a>
 								</div>
-								<h2 class="text-center">Music</h2>
+								<h2 class="text-center">On Sale</h2>
 							</div>
 						</div>
 					</div>
