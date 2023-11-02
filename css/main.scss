@@ -31,6 +31,9 @@ $utilities: (
 
 
 
+
+
+
 @import "./bootstrap/scss/bootstrap";
 
 
@@ -263,3 +266,10 @@ $utilities: (
 .entry-content{
   margin-top: 48px;
 }
+
+/**************** DELETE WOOCOMMERCE TEMPLATES DIV ************************/
+
+
+// .woocommerce-tabs.wc-tabs-wrapper{
+//   display: none;
+// }
