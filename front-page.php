@@ -76,38 +76,38 @@ get_header();
 					<div class="container">
 						<h1 class="text-center">FEATURED CATEGORIES</h1>
 
-						<div class="row pt-5">
-							<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
-								<div>	
-									<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+						<div class="row pt-5 categories__row d-flex justify-content-center">
+							<div class="categories__row__col col-md-3 col-sm-12 ">
+								<div class="image-trim">	
+									<a href="#" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/47F6646.jpg" alt="" load="lazy">
 									</a>
-									<h2 class="text-center">Accessories</h2>
 								</div>
+								<h2 class="text-center">Accessories</h2>
 							</div>
-							<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
-								<div>	
-									<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+							<div class="categories__row__col col-md-3 col-sm-12">
+								<div class="image-trim">	
+									<a href="#" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/10-40603.jpg" alt="" load="lazy">
 									</a>
-									<h2 class="text-center">Hoodies</h2>
 								</div>
+								<h2 class="text-center">Hoodies</h2>
 							</div>
-							<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
-								<div>	
-									<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+							<div class="categories__row__col col-md-3 col-sm-12">
+								<div class="image-trim">	
+									<a href="#" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/firework_small.jpg" alt="" load="lazy">
 									</a>
-									<h2 class="text-center">Tshirts</h2>
 								</div>
+								<h2 class="text-center">Tshirts</h2>
 							</div>
-							<div class="categories__col col-md-3 col-sm-12 d-flex justify-content-center">
-								<div>	
-									<a href="#" class="col-md-12 d-inline-block position-relative overflow-hidden">
+							<div class="categories__row__col col-md-3 col-sm-12">
+								<div class="image-trim">	
+									<a href="#" class="">
 										<img class="rounded" src="<?php echo get_template_directory_uri();?>/images/categories/last_chance_banner.jpg" alt="" load="lazy">
 									</a>
-									<h2 class="text-center">Music</h2>
 								</div>
+								<h2 class="text-center">Music</h2>
 							</div>
 						</div>
 					</div>
